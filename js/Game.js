@@ -403,16 +403,7 @@ class Game {
     });
   }
 
-  gameOver() {
-    swal({
-      title: `Fim de Jogo`,
-      text: "Oops você perdeu a corrida!",
-      imageUrl:
-        "https://cdn.icon-icons.com/icons2/603/PNG/512/delete_unapprove_discard_remove_x_red_icon-icons.com_55984.png",
-      imageSize: "100x100",
-      confirmButtonText: "Obrigado por jogar"
-    });
-  }
+
   
   end() {
     console.log("Fim de Jogo");
